@@ -1,9 +1,7 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
-const api = require("./utils/api");
 
-// Questions User Answers
 function askQuestions() {
     return inquirer.prompt([
         {
@@ -63,10 +61,9 @@ function askQuestions() {
             message: "What command is used to run a test",
             name: "tests",
         }
-    ]); // end of return
-}; // end of function
+    ]);
+}
 
-// write the answers to a new README file
 function WriteToFile(fileName, data) {
     fs.writeFile(fileName, data, "utf8", function (err) {
         if (err) {
@@ -76,7 +73,6 @@ function WriteToFile(fileName, data) {
     });
 }
 
-// write the answers to a new README file
 async function init() {
     try {
         const answers = await askQuestions();

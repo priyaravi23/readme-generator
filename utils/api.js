@@ -1,7 +1,6 @@
 const inquirer = require("inquirer");
 const axios = require("axios");
 
-// Prompt user for GitHub details
 const api = {
     getUser(username) {
         inquirer
@@ -16,12 +15,11 @@ const api = {
 
                 // Grab the GitHub avatar image
                 axios.get(queryUrl).then((res) => {
-                    const avatarURL = res.data.avatar_url
+                    const avatarURL = res.data.avatar_url;
                     console.log(avatarURL);
                 });
             });
     }
 };
 
-// Export data in 'const api' to the index.js page
 module.exports = api;
