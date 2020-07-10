@@ -1,14 +1,8 @@
 ## Readme Generator
 
-![](images/readme-generator.gif)
-
 ### App Demo
 
 ![](images/readme-generator.gif)
-
-### Description
-
-*A command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package*
 
 ### User Story
 
@@ -37,4 +31,39 @@ THEN this is added to the section of the README entitled Questions, with instruc
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
-
+  
+  ### Description
+    A command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package
+    
+  ### Table of Contents
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Tests](#tests)
+  - [Contributors](#contributors)
+  - [Details](#details)
+  
+  ### Installation
+  Packages required to run this program are: inquirer, axios
+  
+  ### Usage
+  Examples of how to use this program: can automatically generate a readme file
+  
+  ### License
+  MIT
+  
+  ### Tests
+  To test, run the following command: N/A
+  
+  ### Contributors
+  Priya
+  
+  ### Contact
+  
+![Badge](https://img.shields.io/badge/Github-priyaravi23-4cbbb9) 
+  
+![Profile Image](https://github.com/priyaravi23.png?size=50)
+  
+View the project in GitHub at: https://priyaravi23.github.io/professional-portfolio/
+  
+If you have any questions, contact the author directly at priyaravi23@gmail.com.
