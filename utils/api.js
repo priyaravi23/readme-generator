@@ -1,3 +1,6 @@
+const inquirer = require("inquirer");
+const axios = require("axios");
+
 // Prompt user for GitHub details
 const api = {
     getUser(username) {
