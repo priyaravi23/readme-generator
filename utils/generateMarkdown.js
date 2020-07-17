@@ -1,9 +1,12 @@
 function generateMarkdown(data) {
     const avatar = `https://github.com/${data.username}.png?size=50`;
     const gitHub = `https://img.shields.io/badge/Github-${data.username}-4cbbb9`;
+    const licenseIcon = `http://img.shields.io/badge/license-${data.license}-brightgreen.svg`;
 
     return `
   ## ${data.title} 
+  
+  \n![${data.license}](${licenseIcon}) 
   
   ### App Demo
   ![](images/readme-generator.gif)

@@ -49,7 +49,7 @@ function askQuestions() {
             name: "license",
             message: "What kind of license would you like to have?",
             name: "license",
-            choices: ["MIT", "APACHE 2.0", "GPL v3", "BSD 3", "None"]
+            choices: ["MIT", "ISC", "Perl"]
         },
         {
             type: "input",

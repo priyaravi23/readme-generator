@@ -1,5 +1,7 @@
   ## Readme Generator 
   
+  ![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)
+  
   ### App Demo
   ![](images/readme-generator.gif)
   
